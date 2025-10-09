@@ -2,10 +2,10 @@
   "name": "jwt",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node index",
-    "dev": "nodemon"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "keywords": [],
   "author": "",
@@ -13,6 +13,7 @@
   "type": "commonjs",
   "dependencies": {
     "date-fns": "^4.1.0",
+    "express": "^5.1.0",
     "uuid": "^13.0.0"
   },
   "devDependencies": {
